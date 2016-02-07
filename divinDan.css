@@ -1,0 +1,39 @@
+body{
+    width: 100%;
+    height: auto;
+    background: url('underwater.png');
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    min-height: 950px;
+}
+canvas {
+    display: block;
+    position: absolute;
+    margin: auto;
+    margin-top: 250px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 5px;
+}
+div {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#titlesign{font-size: 300%; font-weight: bolder; position: relative; left: -50%; top: 150px; background-color: peru; border: solid; border-width: thick; border-radius: 20%}
+#score{font-size: 200%; font-weight: bolder; position: relative; left: -50%; top: 610px;}
+#container{position: absolute; left: 50%; z-index: 999;}
+#container3{position: absolute; left: 50%; z-index: 999;}
